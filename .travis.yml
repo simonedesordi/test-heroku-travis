@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+language: node_js
+node_js:
+  - "0.12"
+ notifications:
+  email:
+    - simone.desordi@gmail.com
